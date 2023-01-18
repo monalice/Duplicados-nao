@@ -29,6 +29,12 @@ public class App {
             l2.add(word);
         }
 
-        
+        for(int i = 0; i < tam; i++) {
+            for(int j = 0; j < tam; j++) {
+                if(l1.get(i).equals(l2.get(j))) {
+                    System.out.println("Duplicado: " + l1.get(i));
+                }
+            }
+        }
     }
 }
